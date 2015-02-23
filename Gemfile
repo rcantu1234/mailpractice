@@ -43,6 +43,8 @@ group :development, :test do
   gem 'spring'
 end
 
+# gem 'mandrill'
+
 
 gem 'hirb'
 gem 'kaminari'
