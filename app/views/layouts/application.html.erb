@@ -14,7 +14,8 @@
       <header>
         <ul>
           <li><%= link_to 'HOME', root_path %></li>
-            <li><%= link_to 'COMMENTS', posts_path %></li>
+            <li><%= link_to 'POSTS', posts_path %></li>
+            <li><%= link_to 'COMMENTS', comments_path %></li>
             <% if user_signed_in? %>
               <li><%= link_to 'SIGN OUT', destroy_user_session_path, method: :delete %></li>
             <% else %>
