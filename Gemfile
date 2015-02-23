@@ -43,9 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
-# gem 'mandrill'
-
-
 gem 'hirb'
 gem 'kaminari'
 gem 'puma'
@@ -67,3 +64,5 @@ end
 
 gem 'bootstrap-sass'
 gem 'simple_form'
+
+gem 'mandrill_dm'

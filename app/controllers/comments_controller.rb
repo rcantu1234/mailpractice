@@ -1,7 +1,7 @@
 class CommentsController < InheritedResources::Base
 
   def create
-    @comment = Comment.new(meeting_params)
+    @comment = Comment.new(comment_params)
 
      respond_to do |format|
       if @comment.save
